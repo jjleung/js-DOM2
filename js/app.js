@@ -22,6 +22,14 @@ priceTwo.innerHTML = "Price: $$$";
 var adTwo = document.getElementById("addy2");
 adTwo.innerHTML = "Address: 525 Kapahulu Ave, Honolulu, HI 96815";
 
+var repImg = document.getElementById("photo2");
+repImg.innerHTML = '<img id="pic2" src="http://chopinandmysaucepan.com/wp-content/uploads/2015/03/P5610744-150x150.jpg" alt="">';
+
+
+
+
+
+
 //3. Ramen Nakamura
 /*Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless.
 
@@ -121,4 +129,38 @@ hours5: Hours: We never close.
 
 Append the div elements to the div id "text5"
 */
+
+var divFive = document.getElementById("text5");
+
+
+var nameFive = document.createElement("div");
+nameFive.id = "name5";
+nameFive.innerHTML = "5. The Death Star Cafe";
+
+divFive.appendChild(nameFive);
+
+var priceFive = document.createElement("div");
+priceFive.id = "price5";
+priceFive.innerHTML = "Price: $$";
+
+divFive.appendChild(priceFive);
+
+var rateFive = document.createElement("div");
+rateFive.id = "rating5";
+rateFive.innerHTML = "Rating: * *";
+
+divFive.appendChild(rateFive);
+
+var addyFive = document.createElement("div");
+addyFive.id = "addy5";
+addyFive.innerHTML = "Address: A galaxy far, far away";
+
+divFive.appendChild(addyFive);
+
+var hoursFive = document.createElement("div");
+hoursFive.id = "hours5";
+hoursFive.innerHTML = "We never close.";
+
+divFive.appendChild(hoursFive);
+
 
